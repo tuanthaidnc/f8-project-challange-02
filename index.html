@@ -23,15 +23,15 @@
         <!-- Header -->
         <header class="header">
             <div class="container">
-                <div class="header-top">
+                <div class="header-top fixed">
                     <figure>
                         <a href="#!" class="logo">
-                            <img src="./assets/img/logo.svg" alt="MODULARS" />
+                            <img src="./assets/img/logo.svg" alt="#!MODULARS" />
                         </a>
                     </figure>
                     <nav class="nav">
                         <ul class="nav__list">
-                            <li class="nav__item">
+                            <li class="nav__item nav__item--active">
                                 <a href="">Home</a>
                             </li>
                             <li class="nav__item">
@@ -44,11 +44,379 @@
                                 <a href="">Contact</a>
                             </li>
                         </ul>
-                        <a href="#!" class="header-top__btn">Sign Up</a>
+                        <a href="#!" class="header-top__btn btn">Sign Up</a>
                     </nav>
-                    
+                </div>
+                <!-- Hero -->
+                <section class="hero">
+                    <img
+                        src="./assets/icon/hero-decor-1.svg"
+                        alt="#!"
+                        class="hero__decor"
+                    />
+                    <img
+                        src="./assets/icon/hero-decor-2.svg"
+                        alt="#!"
+                        class="hero__decor"
+                    />
+                    <img
+                        src="./assets/icon/hero-decor-3.svg"
+                        alt="#!"
+                        class="hero__decor"
+                    />
+                    <img
+                        src="./assets/icon/hero-decor-4.svg"
+                        alt="#!"
+                        class="hero__decor"
+                    />
+                    <section class="hero__content">
+                        <h1 class="hero__heading">
+                            We’re a creative design agency.
+                        </h1>
+                        <p class="hero__desc">
+                            A brilliant, modular agency template for startup’s
+                            build yours toady.
+                        </p>
+                        <div class="hero-cta">
+                            <a href="" class="hero-cta__btn btn"
+                                >Get in touch</a
+                            >
+                            <div class="hero-cta__play">
+                                <a href="#!" class="hero-cta__block-icon"></a>
+                                <img
+                                    src="./assets/icon/play-btn.svg"
+                                    alt="#!"
+                                    class="hero-cta__icon"
+                                />
+                                <span class="hero-cta__heading"
+                                    >Watch Video</span
+                                >
+                            </div>
+                        </div>
+                    </section>
+                    <div class="hero__media">
+                        <img
+                            class="hero__image"
+                            src="./assets/img/hero-img-1.png"
+                            alt="#!"
+                        />
+                        <img
+                            class="hero__image"
+                            src="./assets/img/hero-img-2.png"
+                            alt="#!"
+                        />
+                        <img
+                            class="hero__image"
+                            src="./assets/img/hero-img-3.png"
+                            alt="#!"
+                        />
+                        <div class="hero__bg"></div>
+                    </div>
+                </section>
+                <div class="header-bottom">
+                    <div class="brand">
+                        <img
+                            src="./assets/icon/google.svg"
+                            alt="Google"
+                            class="brand__logo"
+                        />
+                    </div>
+                    <div class="brand">
+                        <img
+                            src="./assets/icon/slack.svg"
+                            alt="Slack"
+                            class="brand__logo"
+                        />
+                    </div>
+                    <div class="brand">
+                        <img
+                            src="./assets/icon/discord.png"
+                            alt="Discord"
+                            class="brand__logo"
+                        />
+                        <span class="brand__name">Agworld</span>
+                    </div>
+                    <div class="brand">
+                        <img
+                            src="./assets/icon/riotinto.svg"
+                            alt="RioTinto"
+                            class="brand__logo"
+                        />
+                    </div>
+                    <div class="brand">
+                        <img
+                            src="./assets/icon/heroku.svg"
+                            alt="Heroku"
+                            class="brand__logo"
+                        />
+                    </div>
                 </div>
             </div>
         </header>
+        <main>
+            <!-- Service -->
+            <section class="service">
+                <div class="container">
+                    <p class="service__sub-title">OUR SERVICES</p>
+                    <div class="row">
+                        <h2 class="service__heading">
+                            We offer a wide range of design services
+                        </h2>
+                        <div class="service__nav">
+                            <button class="service__button">
+                                <svg
+                                    class="service__arrow"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="22"
+                                    height="13"
+                                    viewBox="0 0 22 13"
+                                    fill="none"
+                                >
+                                    <path
+                                        d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                                        stroke="#152427"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                            <button class="service__button">
+                                <svg
+                                    class="service__arrow"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="22"
+                                    height="12"
+                                    viewBox="0 0 22 12"
+                                    fill="none"
+                                >
+                                    <path
+                                        d="M1 6.29412H21M21 6.29412L15.7059 1M21 6.29412L15.7059 11"
+                                        stroke="#152427"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="service__list">
+                        <a href="#!">
+                            <article class="service-item">
+                                <img
+                                    src="./assets/img/service-item-1.png"
+                                    alt="#!"
+                                    class="service-item__thumb"
+                                />
+                                <div class="service-item__body">
+                                    <h3 class="service-item__title">
+                                        Branding
+                                    </h3>
+                                    <p class="service-item__desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#!">
+                            <article class="service-item">
+                                <img
+                                    src="./assets/img/service-item-2.png"
+                                    alt="#!"
+                                    class="service-item__thumb"
+                                />
+                                <div class="service-item__body">
+                                    <h3 class="service-item__title">
+                                        Web Design
+                                    </h3>
+                                    <p class="service-item__desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#!">
+                            <article class="service-item">
+                                <img
+                                    src="./assets/img/service-item-3.png"
+                                    alt="#!"
+                                    class="service-item__thumb"
+                                />
+                                <div class="service-item__body">
+                                    <h3 class="service-item__title">
+                                        Graphic Design
+                                    </h3>
+                                    <p class="service-item__desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#!">
+                            <article class="service-item">
+                                <img
+                                    src="./assets/img/service-item-1.png"
+                                    alt="#!"
+                                    class="service-item__thumb"
+                                />
+                                <div class="service-item__body">
+                                    <h3 class="service-item__title">
+                                        Branding
+                                    </h3>
+                                    <p class="service-item__desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#!">
+                            <article class="service-item">
+                                <img
+                                    src="./assets/img/service-item-1.png"
+                                    alt="#!"
+                                    class="service-item__thumb"
+                                />
+                                <div class="service-item__body">
+                                    <h3 class="service-item__title">
+                                        Branding
+                                    </h3>
+                                    <p class="service-item__desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#!">
+                            <article class="service-item">
+                                <img
+                                    src="./assets/img/service-item-1.png"
+                                    alt="#!"
+                                    class="service-item__thumb"
+                                />
+                                <div class="service-item__body">
+                                    <h3 class="service-item__title">
+                                        Branding
+                                    </h3>
+                                    <p class="service-item__desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- About -->
+            <section class="about">
+                <div class="container">
+                    <div class="about__main-content">
+                        <img
+                            src="./assets/icon/hero-decor-1.svg"
+                            alt="#!"
+                            class="about__decor"
+                        />
+                        <img
+                            src="./assets/img/about-decor-2.svg"
+                            alt="#!"
+                            class="about__decor"
+                        />
+                        <div class="about__media">
+                            <img
+                                src="./assets/img/about-img-1.jpg"
+                                alt="#!"
+                                class="about__image about__image-1"
+                            />
+                            <img
+                                src="./assets/img/about-img-2.jpg"
+                                alt="#!"
+                                class="about__image"
+                            />
+                            <article class="about-info">
+                                <span class="about-info__title"
+                                    >All Designers</span
+                                >
+                                <span class="about-info__sub-title"
+                                    >Total Balance</span
+                                >
+                                <div class="info-percent">
+                                    <span class="info-text info-percent__title"
+                                        >40%</span
+                                    >
+                                    <span class="info-text info-percent__status"
+                                        >Loading...</span
+                                    >
+                                </div>
+                                <div class="info-team">
+                                    <span class="info-text">Teams:</span>
+                                    <div class="info-team__group-avatar">
+                                        <img
+                                            src="./assets/img/human-1.jpg"
+                                            alt="#!"
+                                            class="info-team__avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/human-2.jpg"
+                                            alt="#!"
+                                            class="info-team__avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/human-3.jpg"
+                                            alt="#!"
+                                            class="info-team__avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/human-4.jpg"
+                                            alt="#!"
+                                            class="info-team__avatar"
+                                        />
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <section class="about__body">
+                            <p class="about__sub-title">ABOUT US</p>
+                            <h2 class="about__heading">
+                                We are an extention of your creative team
+                            </h2>
+                            <p class="about__desc">
+                                At the start of every project, we cusomizea
+                                detailed project plan together with you set
+                                exectationns ensure alighment and define key
+                                milestones and deiverbles.
+                            </p>
+                            <div class="about__content">
+                                <span class="about__number">48%</span>
+                                <p class="about__number-desc">
+                                    Are you strive for two things in design
+                                    simplicity and clarity. Great design is born
+                                    of those two things
+                                </p>
+                            </div>
+                            <div class="about__content">
+                                <span class="about__number">26%</span>
+                                <p class="about__number-desc">
+                                    Are you strive for two things in design
+                                    simplicity and clarity. Great design is born
+                                    of those two things
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
